@@ -1,0 +1,119 @@
+body { font-family: "roboto", "san-serif";
+    font-size: 16px;
+    color: #2E3235;
+    padding: 15px 50px 50px 50px;
+
+background-color: white;
+}
+
+#container { display: grid;
+			 grid-template-columns: 400px 400px 400px;
+			 grid-template-rows:  auto auto auto;
+			 grid-gap: 20px;
+				}
+#name { grid-column-start: 2;
+		grid-column-end: 3;}
+
+
+#photo {
+		
+	
+	
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		}
+
+
+#contact { grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+	 	grid-row-end: 3}
+#work-experience
+{ 	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3}
+
+
+#education{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;}
+#volunteering{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;}
+
+#graphic-skills {grid-column-start: 2;
+	grid-column-end: 3;}
+#instruments {grid-column-start: 3;
+	grid-column-end: 4;}
+
+.name { background-color: rgba(255, 180, 12, 0.7);
+		background-position: bottom;
+		text-decoration: none;}
+h1 { text-align: center;
+	 text-decoration: underline;
+	 text-decoration-color: rgba(255, 180, 12, 0.7);
+	 
+	}
+
+#phone {text-decoration: underline;
+		
+		text-decoration-color: rgba(255, 180, 12, 0.7); }
+
+#email {text-decoration: underline;
+		text-decoration-color: rgba(255, 180, 12, 0.7); }
+ 
+ 
+
+		
+h1, h2, h4, h3 { font-family: 'Fira Sans', sans-serif;
+				 
+}
+
+img { border-style: solid;
+        border-color: white;
+    
+}
+
+li { list-style-type: none  ;
+    background: url(tiny_teal_icon.png) no-repeat left;
+    list-style-position: outside;
+    
+    padding-left: 25px;
+
+   
+    
+}
+
+a:link { background-color: #ffd500 /* Pretty Gold */;
+		text-decoration: none; }	
+
+a:visited { color: darkblue; }
+
+a:hover { color: cornflowerblue;}
+
+a:active { color: red;}
+
+
+.work-experience { list-style-type: none;
+    
+         
+                                        }
+.graphics { font-family: "roboto", "san-serif";}
+.instruments { font-family: "roboto", "san-serif";}
+
+
+
+
+
+
+
+
+
+
